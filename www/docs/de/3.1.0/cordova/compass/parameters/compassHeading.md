@@ -26,11 +26,11 @@ Ein `CompassHeading` Objekt wird an die `CompassSuccess` Callback-Funktion zurü
 
 ## Eigenschaften
 
-*   **MagneticHeading**: die Überschrift in Grad von 0-359.99 zu einem einzigen Zeitpunkt. *(Anzahl)*
+*   **MagneticHeading**: die Kursrichtung in Grad von 0-359.99 zu einem einzigen Zeitpunkt. *(Anzahl)*
 
-*   **TrueHeading**: die Überschrift im Verhältnis zu den geografischen Nordpol in Grad 0-359.99 zu einem einzigen Zeitpunkt. Ein negativer Wert bedeutet, dass die wahre Überschrift nicht bestimmt werden kann. *(Anzahl)*
+*   **TrueHeading**: die Kursrichtung im Verhältnis zu den geografischen Nordpol in Grad 0-359.99 zu einem einzigen Zeitpunkt. Ein negativer Wert bedeutet, dass die wahre Kursrichtung nicht bestimmt werden kann. *(Anzahl)*
 
-*   **HeadingAccuracy**: die Abweichung in Grad zwischen der gemeldeten Überschrift und die wahre Richtung. *(Anzahl)*
+*   **HeadingAccuracy**: die Abweichung in Grad zwischen der gemeldeten und der wahren Kursrichtung. *(Anzahl)*
 
 *   **Timestamp**: die Zeit, an dem dieser Rubrik bestimmt war. *(Millisekunden)*
 
